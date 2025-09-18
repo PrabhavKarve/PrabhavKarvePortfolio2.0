@@ -1,7 +1,7 @@
 import React from 'react';
 import VocAppImage from '../Images/VocApp-Flashcards.PNG';
 import F1bnbImage from '../Images/F1bnb.PNG';
-import RAGFSIImage from '../Images/RAG-FSI.PNG';
+import RAGFSIImage from '../Images/RAG-FSI.png';
 import PaintImage from '../Images/Paint.PNG';
 
 function Projects() {
