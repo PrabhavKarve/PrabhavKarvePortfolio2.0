@@ -1,0 +1,329 @@
+/* About Section Styles */
+.about-section {
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #2d2d2d 100%);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-grid-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(rgba(255,255,255,0.01) 1px, transparent 1px), 
+                    linear-gradient(90deg, rgba(255,255,255,0.01) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.about-title {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: 800;
+  font-family: system-ui, -apple-system, sans-serif;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+.about-title-highlight {
+  background: linear-gradient(45deg, #00d4ff, #ff6b35);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Grid Layout */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+  margin-bottom: 4rem;
+}
+
+/* Summary Box */
+.about-summary-box {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(20px);
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 255, 136, 0.2);
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
+
+.about-summary-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #00ff88, #00d4ff);
+}
+
+.about-summary-title {
+  color: #00ff88;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.about-summary-text {
+  color: #e2e8f0;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Profile Image Box */
+.about-profile-box {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(20px);
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 107, 53, 0.2);
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
+
+.about-profile-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #ff6b35, #ffd700);
+}
+
+.about-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.about-profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Timeline Section */
+.about-timeline-box {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(20px);
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(138, 43, 226, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-timeline-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #8a2be2, #00d4ff);
+}
+
+.about-timeline-title {
+  color: #8a2be2;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.about-timeline-debug {
+  color: #00ff88;
+  margin-bottom: 1rem;
+  font-family: monospace;
+}
+
+.about-timeline-container {
+  position: relative;
+  padding-left: 4rem;
+}
+
+.about-timeline-line {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  bottom: 20px;
+  width: 4px;
+  background: linear-gradient(180deg, #8a2be2, #00d4ff, #ff6b35, #ffd700, #00ff88);
+  border-radius: 2px;
+}
+
+.about-timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.about-timeline-node {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 4px solid #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.about-timeline-node-icon {
+  font-size: 14px;
+  color: #000;
+}
+
+.about-timeline-content {
+  background: rgba(0,0,0,0.8);
+  border-radius: 12px;
+  padding: 2rem;
+  flex: 1;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+
+.about-timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.about-timeline-item-title {
+  font-size: 1.4rem;
+  margin: 0;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.about-timeline-period {
+  color: #ffd700;
+  font-size: 0.9rem;
+  font-family: monospace;
+  background: rgba(255,215,0,0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255,215,0,0.3);
+}
+
+.about-timeline-org-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about-timeline-logo-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: white;
+  border: 2px solid rgba(0, 212, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.about-timeline-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.about-timeline-logo-fallback {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #00d4ff, #ff6b35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.about-timeline-org-name {
+  color: #00d4ff;
+  font-size: 1.1rem;
+  margin: 0;
+  font-family: monospace;
+  font-weight: 500;
+}
+
+.about-timeline-description {
+  color: #e2e8f0;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Color variants */
+.about-timeline-node-work {
+  background: #ff6b35;
+}
+
+.about-timeline-node-education {
+  background: #00ff88;
+}
+
+.about-timeline-node-achievement {
+  background: #ffd700;
+}
+
+.about-timeline-content-work {
+  border: 2px solid #ff6b35;
+  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.3);
+}
+
+.about-timeline-content-education {
+  border: 2px solid #00ff88;
+  box-shadow: 0 8px 25px rgba(0, 255, 136, 0.3);
+}
+
+.about-timeline-content-achievement {
+  border: 2px solid #ffd700;
+  box-shadow: 0 8px 25px rgba(255, 215, 0, 0.3);
+}
+
+.about-timeline-title-work {
+  color: #ff6b35;
+}
+
+.about-timeline-title-education {
+  color: #00ff88;
+}
+
+.about-timeline-title-achievement {
+  color: #ffd700;
+}
