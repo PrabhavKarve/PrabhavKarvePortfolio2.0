@@ -20,10 +20,10 @@ function Projects() {
           </p>
         </div>
         
-        <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '2.5rem', maxWidth: '800px', margin: '0 auto'}}>
-          <div style={{background: 'rgba(0, 0, 0, 0.8)', backdropFilter: 'blur(20px)', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 25px 50px rgba(0, 0, 0, 0.5)', border: '1px solid rgba(0, 255, 136, 0.2)', position: 'relative', overflow: 'hidden'}}>
+        <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '3rem', maxWidth: '1000px', margin: '0 auto'}}>
+          <div style={{background: 'rgba(0, 0, 0, 0.8)', backdropFilter: 'blur(20px)', padding: '3rem', borderRadius: '12px', boxShadow: '0 25px 50px rgba(0, 0, 0, 0.5)', border: '1px solid rgba(0, 255, 136, 0.2)', position: 'relative', overflow: 'hidden'}}>
             <div style={{position: 'absolute', top: '0', left: '0', right: '0', height: '3px', background: 'linear-gradient(90deg, #00ff88, #00d4ff)'}}></div>
-            <div style={{height: '200px', background: 'linear-gradient(45deg, #1a1a1a, #2a2a2a)', borderRadius: '8px', marginBottom: '1.5rem', border: '2px solid #00ff88', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden'}}>
+            <div style={{height: '250px', background: 'linear-gradient(45deg, #1a1a1a, #2a2a2a)', borderRadius: '8px', marginBottom: '2rem', border: '2px solid #00ff88', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden'}}>
               <img src={VocAppImage} alt="VocApp Screenshot" style={{width: '100%', height: '100%', objectFit: 'contain', borderRadius: '6px'}} />
             </div>
             <h3 style={{color: '#00ff88', marginBottom: '1rem', fontSize: '1.5rem', fontFamily: 'monospace', fontWeight: '600'}}>VocApp: Vocabulary builder</h3>
@@ -38,9 +38,9 @@ Learn. Test. Repeat.</p>
             </div>
           </div>
           
-          <div style={{background: 'rgba(0, 0, 0, 0.8)', backdropFilter: 'blur(20px)', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 25px 50px rgba(0, 0, 0, 0.5)', border: '1px solid rgba(255, 107, 53, 0.2)', position: 'relative', overflow: 'hidden'}}>
+          <div style={{background: 'rgba(0, 0, 0, 0.8)', backdropFilter: 'blur(20px)', padding: '3rem', borderRadius: '12px', boxShadow: '0 25px 50px rgba(0, 0, 0, 0.5)', border: '1px solid rgba(255, 107, 53, 0.2)', position: 'relative', overflow: 'hidden'}}>
             <div style={{position: 'absolute', top: '0', left: '0', right: '0', height: '3px', background: 'linear-gradient(90deg, #ff6b35, #ffd700)'}}></div>
-            <div style={{height: '200px', background: 'linear-gradient(45deg, #1a1a1a, #2a2a2a)', borderRadius: '8px', marginBottom: '1.5rem', border: '2px solid #ff6b35', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden'}}>
+            <div style={{height: '250px', background: 'linear-gradient(45deg, #1a1a1a, #2a2a2a)', borderRadius: '8px', marginBottom: '2rem', border: '2px solid #ff6b35', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden'}}>
               <img src={F1bnbImage} alt="F1bnb Screenshot" style={{width: '100%', height: '100%', objectFit: 'contain', borderRadius: '6px'}} />
             </div>
             <h3 style={{color: '#ff6b35', marginBottom: '1rem', fontSize: '1.5rem', fontFamily: 'monospace', fontWeight: '600'}}>F1bnb:
@@ -55,9 +55,9 @@ Accommodation rental platform</h3>
             </div>
           </div>
           
-          <div style={{background: 'rgba(0, 0, 0, 0.8)', backdropFilter: 'blur(20px)', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 25px 50px rgba(0, 0, 0, 0.5)', border: '1px solid rgba(138, 43, 226, 0.2)', position: 'relative', overflow: 'hidden'}}>
+          <div style={{background: 'rgba(0, 0, 0, 0.8)', backdropFilter: 'blur(20px)', padding: '3rem', borderRadius: '12px', boxShadow: '0 25px 50px rgba(0, 0, 0, 0.5)', border: '1px solid rgba(138, 43, 226, 0.2)', position: 'relative', overflow: 'hidden'}}>
             <div style={{position: 'absolute', top: '0', left: '0', right: '0', height: '3px', background: 'linear-gradient(90deg, #8a2be2, #00d4ff)'}}></div>
-            <div style={{height: '200px', background: 'linear-gradient(45deg, #1a1a1a, #2a2a2a)', borderRadius: '8px', marginBottom: '1.5rem', border: '2px solid #8a2be2', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden'}}>
+            <div style={{height: '250px', background: 'linear-gradient(45deg, #1a1a1a, #2a2a2a)', borderRadius: '8px', marginBottom: '2rem', border: '2px solid #8a2be2', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden'}}>
               <img src={RAGFSIImage} alt="RAG-FSI Screenshot" style={{width: '100%', height: '100%', objectFit: 'contain', borderRadius: '6px'}} />
             </div>
             <h3 style={{color: '#8a2be2', marginBottom: '1rem', fontSize: '1.5rem', fontFamily: 'monospace', fontWeight: '600'}}>RAG-Financial Statement Intelligence</h3>
@@ -71,9 +71,9 @@ Accommodation rental platform</h3>
             </div>
           </div>
           
-          <div style={{background: 'rgba(0, 0, 0, 0.8)', backdropFilter: 'blur(20px)', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 25px 50px rgba(0, 0, 0, 0.5)', border: '1px solid rgba(255, 215, 0, 0.2)', position: 'relative', overflow: 'hidden'}}>
+          <div style={{background: 'rgba(0, 0, 0, 0.8)', backdropFilter: 'blur(20px)', padding: '3rem', borderRadius: '12px', boxShadow: '0 25px 50px rgba(0, 0, 0, 0.5)', border: '1px solid rgba(255, 215, 0, 0.2)', position: 'relative', overflow: 'hidden'}}>
             <div style={{position: 'absolute', top: '0', left: '0', right: '0', height: '3px', background: 'linear-gradient(90deg, #ffd700, #ff6b35)'}}></div>
-            <div style={{height: '200px', background: 'linear-gradient(45deg, #1a1a1a, #2a2a2a)', borderRadius: '8px', marginBottom: '1.5rem', border: '2px solid #8a2be2', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden'}}>
+            <div style={{height: '250px', background: 'linear-gradient(45deg, #1a1a1a, #2a2a2a)', borderRadius: '8px', marginBottom: '2rem', border: '2px solid #8a2be2', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden'}}>
               <img src={PaintImage} alt="Paint Clone Screenshot" style={{width: '100%', height: '100%', objectFit: 'contain', borderRadius: '6px'}} />
             </div>
             <h3 style={{color: '#ffd700', marginBottom: '1rem', fontSize: '1.5rem', fontFamily: 'monospace', fontWeight: '600'}}>Paint Clone:

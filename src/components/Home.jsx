@@ -52,6 +52,7 @@ function Home() {
         color: 'white',
         position: 'relative',
         overflow: 'hidden',
+        paddingTop: '80px',
       }}
     >
       {/* Subtle Grid Background */}
@@ -73,7 +74,7 @@ function Home() {
           margin: '0 auto',
           padding: '0 2rem',
           display: 'grid',
-          gridTemplateColumns: '1fr 1fr',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
           gap: '4rem',
           alignItems: 'center',
           width: '100%',

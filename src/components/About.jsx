@@ -112,14 +112,14 @@ const About = () => {
         </motion.div>
 
         <motion.div
-          style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'start', marginBottom: '4rem'}}
+          style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'start', marginBottom: '4rem'}}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
           <motion.div
-            style={{background: 'rgba(0, 0, 0, 0.8)', backdropFilter: 'blur(20px)', padding: '2.5rem', borderRadius: '12px', border: '1px solid rgba(0, 255, 136, 0.2)', position: 'relative', overflow: 'hidden', height: '500px'}}
+            style={{background: 'rgba(0, 0, 0, 0.8)', backdropFilter: 'blur(20px)', padding: '2.5rem', borderRadius: '12px', border: '1px solid rgba(0, 255, 136, 0.2)', position: 'relative', overflow: 'hidden', height: '400px'}}
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -138,7 +138,7 @@ const About = () => {
           </motion.div>
 
           <motion.div
-            style={{background: 'rgba(0, 0, 0, 0.8)', backdropFilter: 'blur(20px)', padding: '2.5rem', borderRadius: '12px', border: '1px solid rgba(255, 107, 53, 0.2)', position: 'relative', overflow: 'hidden', height: '500px'}}
+            style={{background: 'rgba(0, 0, 0, 0.8)', backdropFilter: 'blur(20px)', padding: '2.5rem', borderRadius: '12px', border: '1px solid rgba(255, 107, 53, 0.2)', position: 'relative', overflow: 'hidden', height: '400px'}}
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
