@@ -139,7 +139,7 @@ Accommodation rental platform</h3>
               <span style={{background: 'transparent', color: '#8a2be2', padding: '0.4rem 0.8rem', borderRadius: '6px', fontSize: '0.8rem', border: '1px solid #8a2be2', fontFamily: 'monospace'}}>FAISS</span>
               <span style={{background: 'transparent', color: '#8a2be2', padding: '0.4rem 0.8rem', borderRadius: '6px', fontSize: '0.8rem', border: '1px solid #8a2be2', fontFamily: 'monospace'}}>LangChain</span>
             </div>
-            <a href="https://rag-fsi.prabhavkarve.com" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', marginTop: 'auto'}}>
+            <a href="https://rag-fsi-client-2-0.vercel.app/" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', marginTop: 'auto'}}>
               <button style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -190,7 +190,7 @@ Desktop app</h3>
               <span style={{background: 'transparent', color: '#ffd700', padding: '0.4rem 0.8rem', borderRadius: '6px', fontSize: '0.8rem', border: '1px solid #ffd700', fontFamily: 'monospace'}}>OpenCV</span>
               <span style={{background: 'transparent', color: '#ffd700', padding: '0.4rem 0.8rem', borderRadius: '6px', fontSize: '0.8rem', border: '1px solid #ffd700', fontFamily: 'monospace'}}>Tkinter</span>
             </div>
-            <a href="https://github.com/prabhavkarve/paint-clone" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', marginTop: 'auto'}}>
+            <a href="https://github.com/PrabhavKarve/Paint-by-python" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', marginTop: 'auto'}}>
               <button style={{
                 display: 'flex',
                 alignItems: 'center',
